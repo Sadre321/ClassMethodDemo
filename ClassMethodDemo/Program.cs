@@ -7,7 +7,7 @@ namespace ClassMethodDemo
         static void Main(string[] args)
         {
            
-
+            //müşteri ekleme
             Musteri musteri1 = new Musteri();
             musteri1.ID = 1;
             musteri1.Name = "Haydar";
@@ -21,7 +21,7 @@ namespace ClassMethodDemo
             musteri2.Job = "Öğrenci";
 
            
-
+            //müşteri yönetimi
             MusteriManager musteriManager = new MusteriManager();
             musteriManager.List(musteri1, musteri2);
             musteriManager.Delete(musteri1);
